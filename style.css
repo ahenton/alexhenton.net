@@ -49,7 +49,7 @@ section {
     text-align: center;
 }
 
-.music, .visuals, .events, .contact {
+.intro, .music, .visuals, .events, .contact {
     background-color: #222;
     margin-top: 1rem;
     border-top: 5px solid #4CAF50;
