@@ -11,17 +11,21 @@
 
 /* Body Styling */
 body {
-    font-family: 'Kaushan Script', serif;
+    font-family: 'Caveat', serif;
     background-color: #111;
     color: #fff;
     line-height: 1.6;
 }
 
-.kaushan-script-regular {
-    font-family: 'Kaushan Script', serif;
-    font-weight: 400;
-    font-style: normal;
-  }  
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 400 to 700 */
+
+.caveat-<uniquifier> {
+  font-family: "Caveat", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
 /* Header */
 .header {
