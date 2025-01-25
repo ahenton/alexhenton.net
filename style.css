@@ -11,11 +11,17 @@
 
 /* Body Styling */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Kaushan Script', serif;
     background-color: #111;
     color: #fff;
     line-height: 1.6;
 }
+
+.kaushan-script-regular {
+    font-family: 'Kaushan Script', serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
 
 /* Header */
 .header {
