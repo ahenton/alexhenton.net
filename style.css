@@ -86,20 +86,20 @@ section {
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
-  }
+}
   
-  .art-image {
+.art-image {
     width: 200px; /* Adjust to your preference */
     height: auto;
     border: 2px solid #ccc;
     border-radius: 10px;
     transition: transform 0.3s, box-shadow 0.3s;
-  }
+}
   
-  .art-image:hover {
+.art-image:hover {
     transform: scale(1.1);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-  }
+}
 
 /* Footer */
 .footer {
