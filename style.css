@@ -19,7 +19,7 @@ body {
 
 .kaushan-script-regular {
     font-family: 'Kaushan Script', serif;
-    font-weight: 400;
+    font-weight: 300;
     font-style: normal;
   }  
 
@@ -61,6 +61,26 @@ section {
     border-top: 5px solid #4CAF50;
     border-bottom: 5px solid #4CAF50;
 }
+
+.art-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .art-image {
+    width: 200px; /* Adjust to your preference */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .art-image:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
 
 /* Footer */
 .footer {
