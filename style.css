@@ -11,35 +11,32 @@
 
 /* Body Styling */
 body {
-    font-family: 'Quantico', serif;
+    font-family: 'Quantico', sans-serif;
     background-color: #111;
     color: #fff;
     line-height: 1.6;
 }
 
-/* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 400 to 700 */
-
 .quantico-regular {
-    font-family: 'Quantico', serif;
+    font-family: 'Quantico', sans-serif;
     font-weight: 400;
     font-style: normal;
 }
   
 .quantico-bold {
-    font-family: 'Quantico', serif;
+    font-family: 'Quantico', sans-serif;
     font-weight: 700;
     font-style: normal;
 }
   
 .quantico-regular-italic {
-    font-family: 'Quantico', serif;
+    font-family: 'Quantico', sans-serif;
     font-weight: 400;
     font-style: italic;
 }
   
 .quantico-bold-italic {
-    font-family: 'Quantico', serif;
+    font-family: 'Quantico', sans-serif;
     font-weight: 700;
     font-style: italic;
 }
