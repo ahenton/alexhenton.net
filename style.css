@@ -74,7 +74,7 @@ section {
     text-align: center;
 }
 
-.intro, .music, .visuals, .events, .contact {
+.intro, .music, .visuals, .events, .stories, .contact {
     background-color: #222;
     margin-top: 1rem;
     border-top: 5px solid #4CAF50;
@@ -118,6 +118,18 @@ a {
 
 a:hover {
     color: #fff;
+}
+
+.hover-container span {
+    display: none;
+}
+
+.hover-container:hover .default-text {
+    display: none;
+}
+
+.hover-container:hover .hover-text {
+    display: inline;
 }
 
 /* Responsive Design */

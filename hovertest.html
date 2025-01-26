@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hover Text Change</title>
+  <style>
+    .hover-text::before {
+      content: "Hover over me!";
+    }
+    .hover-text:hover::before {
+      content: "Text changed!";
+    }
+  </style>
+</head>
+<body>
+  <p class="hover-text"></p>
+</body>
+</html>
