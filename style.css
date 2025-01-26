@@ -128,23 +128,20 @@ a:hover {
 
 .text-container .text-1 {
     opacity: 1;
-    transition: opacity 0.3s ease;
 }
 
 .text-container .text-2 {
-    position: absolute;
-    top: 0;
-    left: 0;
     opacity: 0;
-    transition: opacity 0.3s ease;
 }
 
 .text-container:hover .text-1 {
     opacity: 0;
+    transition: opacity 0.3s ease;
 }
 
 .text-container:hover .text-2 {
     opacity: 1;
+    transition: opacity 0.3s ease;
 }
 
 /* Responsive Design */
