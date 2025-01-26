@@ -135,28 +135,25 @@ a:hover {
     color: #000000;
 }
 
-.text-container {
-    position: relative;
-    font-size: 24px;
-    cursor:pointer;
-}
-
-.text-container .text-1 {
+.text-1 {
     opacity: 1;
 }
 
-.text-container .text-2 {
+.text-2 {
     opacity: 0;
+    width: 0%;
 }
 
-.text-container:hover .text-1 {
+.text-1:hover {
     opacity: 0;
     transition: opacity 0.3s ease;
+    width: 0%;
 }
 
 .text-container:hover .text-2 {
     opacity: 1;
     transition: opacity 0.3s ease;
+    width: 100%;
 }
 
 /* Responsive Design */
