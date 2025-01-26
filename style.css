@@ -124,17 +124,13 @@ a:hover {
     position: relative;
 }
 
-.hover-text:hover::after {
+.hover-text:hover {
     content: "Manhattan, Kansas";
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     color: #4CAF50;
-}
-
-.hover-text:hover {
-    color: transparent; /* optionally hides the base text */
 }
   
 
