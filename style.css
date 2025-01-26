@@ -93,7 +93,7 @@ section {
     height: auto;
     border: 1px solid #4CAF50;
     border-radius: 5px;
-    filter:blur()
+    filter:blur();
 }
   
 .art-image:hover {
