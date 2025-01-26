@@ -132,6 +132,7 @@ a:hover {
     width: 100%;
     color: #4CAF50;
 }
+
 .hover-text:hover {
     color: transparent; /* optionally hides the base text */
 }
