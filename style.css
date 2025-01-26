@@ -75,10 +75,25 @@ section {
 }
 
 .intro, .music, .visuals, .events, .stories, .contact {
-    background-color: #222;
     margin-top: 1rem;
     border-top: 3px solid #4CAF50;
     border-bottom: 3px solid #4CAF50;
+}
+
+.intro {
+    background-color: #bba218;
+}
+
+.music {
+    background-color: #a31919;
+}
+
+.visuals {
+    background-color: #458787;
+}
+
+.events {
+    background-color: ;
 }
 
 .art-gallery {
