@@ -120,26 +120,36 @@ a:hover {
     color: #000000;
 }
 
-.text-1 {
-    opacity: 1;
-}
-
-.text-2 {
-    display: none;
-    opacity: 0;
-    width: 0%;
-}
-
-.text-1:hover {
-    display: none;
-    opacity: 0;
-    width: 0%;
-}
-
-.text-2:hover {
-    opacity: 1;
+.text-container {
+    position: relative;
+    width: auto;
     transition: opacity 0.3s ease;
-    width: 100%;
+}
+
+.text1 {
+    display: inline;
+    opacity: 1;
+    width:auto;
+    transition: opacity 0.3s ease;
+}
+
+.text2 {
+    display: none;
+    opacity: 0;
+    width: 0%;
+    transition: opacity 0.3s ease;
+}
+
+.text-container:hover .text1 {
+    display: none;
+    opacity: 0;
+    width: 0%;
+}
+
+.text-container:hover .text2 {
+    display:inline;
+    opacity: 1;
+    width:auto;
 }
 
 /* Responsive Design */
