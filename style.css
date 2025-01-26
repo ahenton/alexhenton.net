@@ -128,9 +128,6 @@ a:hover {
 .hover-text:hover {
     content: "Manhattan, Kansas";
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
     color: #4CAF50;
 }
   
