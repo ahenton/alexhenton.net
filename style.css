@@ -17,6 +17,10 @@ body {
     line-height: 1.6;
 }
 
+.h2 {
+    color:#4CAF50;
+}
+
 .quantico-regular {
     font-family: 'Quantico', sans-serif;
     font-weight: 400;
