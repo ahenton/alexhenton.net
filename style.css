@@ -81,10 +81,6 @@ section {
     border-bottom: 3px solid #4CAF50;
 }
 
-.events {
-    background-color: black;
-}
-
 .art-gallery {
     display: flex;
     justify-content: center;
