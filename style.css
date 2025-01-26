@@ -77,8 +77,8 @@ section {
 .intro, .music, .visuals, .events, .stories, .contact {
     background-color: #222;
     margin-top: 1rem;
-    border-top: 5px solid #4CAF50;
-    border-bottom: 5px solid #4CAF50;
+    border-top: 3px solid #4CAF50;
+    border-bottom: 3px solid #4CAF50;
 }
 
 .art-gallery {
