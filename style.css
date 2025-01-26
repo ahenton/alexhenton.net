@@ -120,13 +120,22 @@ a:hover {
     color: #000000;
 }
 
-.hover-container .default-text {
-    display: none;
+.hover-text {
+    position: relative;
 }
 
-.hover-container:hover .hover-text {
-    display: inline;
+.hover-text:hover::after {
+    content: "Manhattan, Kansas";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #4CAF50;
 }
+.hover-text:hover {
+    color: transparent; /* optionally hides the base text */
+}
+  
 
 /* Responsive Design */
 @media (max-width: 768px) {
