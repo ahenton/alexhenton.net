@@ -129,11 +129,13 @@ a:hover {
 }
 
 .text-2 {
+    display: none;
     opacity: 0;
     width: 0%;
 }
 
 .text-1:hover {
+    display: none;
     opacity: 0;
     width: 0%;
 }
