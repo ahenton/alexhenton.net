@@ -92,7 +92,7 @@ section {
     width: 200px; /* Adjust to your preference */
     height: auto;
     border: 2px solid #000000;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
   
