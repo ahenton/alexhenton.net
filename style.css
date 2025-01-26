@@ -120,6 +120,10 @@ a:hover {
     color: #fff;
 }
 
+.hover-container {
+    position:relative;
+}
+
 .hover-container .hover-text {
     display: none;
 }
