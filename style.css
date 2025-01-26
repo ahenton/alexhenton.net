@@ -120,7 +120,7 @@ a:hover {
     color: #fff;
 }
 
-.hover-container span {
+.hover-container .hover-text {
     display: none;
 }
 
