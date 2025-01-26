@@ -74,7 +74,7 @@ section {
     text-align: center;
 }
 
-.intro, .music, .visuals, .events, .stories, .contact {
+.intro, .music, .visuals, .stories, .services, .contact {
     background-color: #222;
     margin-top: 1rem;
     border-top: 3px solid #4CAF50;
