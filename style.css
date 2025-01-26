@@ -52,7 +52,7 @@ body {
     color: #fff;
     padding: 1rem;
     text-align: center;
-    border-bottom: #4CAF50;
+    border-bottom: 5px solid #4CAF50;
 }
 
 .nav-links {
