@@ -121,32 +121,34 @@ a:hover {
 }
 
 .text-container {
+    transition: opacity 0.3s ease;
     position: relative;
     width: auto;
-    transition: opacity 0.3s ease;
 }
 
 .text1 {
+    transition: opacity 0.3s ease;
     display: inline;
     opacity: 1;
     width:auto;
-    transition: opacity 0.3s ease;
 }
 
 .text2 {
+    transition: opacity 0.3s ease;
     display: none;
     opacity: 0;
     width: 0%;
-    transition: opacity 0.3s ease;
 }
 
 .text-container:hover .text1 {
+    transition: opacity 0.3s ease;
     display: none;
     opacity: 0;
     width: 0%;
 }
 
 .text-container:hover .text2 {
+    transition: opacity 0.3s ease;
     display:inline;
     opacity: 1;
     width:auto;
