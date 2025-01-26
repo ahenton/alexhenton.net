@@ -5,15 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hover Text Change</title>
   <style>
-    .hover-text::before {
-      content: "Hover over me!";
+    .hover-container span {
+      display: none;
     }
-    .hover-text:hover::before {
-      content: "Text changed!";
+    .hover-container:hover .default-text {
+      display: none;
+    }
+    .hover-container:hover .hover-text {
+      display: inline;
     }
   </style>
 </head>
 <body>
-  <p class="hover-text"></p>
+  <div class="hover-container">
+    <span class="default-text">Hover over me!</span>
+    <span class="hover-text">Text changed!</span>
+  </div>
 </body>
 </html>
