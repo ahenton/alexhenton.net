@@ -93,7 +93,7 @@ section {
     height: auto;
     border: 1px solid #4CAF50;
     border-radius: 5px;
-    filter:blur(1%)
+    filter:blur()
 }
   
 .art-image:hover {
@@ -120,7 +120,32 @@ a:hover {
     color: #000000;
 }
 
-  
+.text-container {
+    position: relative;
+    font-size: 24px;
+    cursor:pointer;
+}
+
+.text-container .text-1 {
+    opacity: 1;
+    transition: opacity 0.3s ease;
+}
+
+.text-container .text-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.text-container:hover .text-1 {
+    opacity: 0;
+}
+
+.text-container:hover .text-2 {
+    opacity: 1;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
