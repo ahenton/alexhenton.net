@@ -103,12 +103,12 @@ section {
 
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 20px;
 }
 
 .column {
-    flex: 1;
+    width: 30%;
     padding: 10px;
     border: 1px solid #4CAF50;
     border-radius: 5px;
@@ -117,10 +117,10 @@ section {
 }
 
 .column:hover {
-    transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px #000;
     background-color: #4CAF50;
 }
+
 
 /* Footer */
 footer {
