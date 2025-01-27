@@ -101,6 +101,27 @@ section {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #000000;
+}
+
+.column:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #4CAF50;
+}
+
 /* Footer */
 footer {
     background-color: #333;
