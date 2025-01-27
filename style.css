@@ -113,7 +113,7 @@ section {
     border: 1px solid #4CAF50;
     border-radius: 5px;
     text-align: center;
-    background-color: #000000;
+    background-color: #111;
 }
 
 .column:hover {
