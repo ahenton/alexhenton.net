@@ -111,7 +111,8 @@ section {
  
 .art-image-full {
     max-width: 100%;
-    object-fit: scale-down;;
+    object-fit: scale-down;
+    margin-top: 5px;
 }
 
 .container {
