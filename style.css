@@ -155,6 +155,10 @@ a:hover {
     color: #000000;
 }
 
+.hover-text:hover {
+    container-name: "manhattan, kansas";
+}
+
 .text-container {
     position: relative;
     width: auto;
