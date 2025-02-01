@@ -44,11 +44,11 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #212321;
     color: #eee;
     padding: 1rem;
     text-align: center;
-    border-bottom: 3px solid #4CAF50;
+    border-bottom: 1px solid #4CAF50;
 }
 
 .nav-links {
@@ -80,10 +80,10 @@ section {
 }
 
 .music, .visuals, .contact {
-    background-color: #222;
+    background-color: #212321;
     margin-top: 1rem;
-    border-top: 3px solid #4CAF50;
-    border-bottom: 3px solid #4CAF50;
+    border-top: 1px solid #4CAF50;
+    border-bottom: 1px solid #4CAF50;
 }
 
 .art-gallery {
@@ -128,7 +128,7 @@ section {
     border: 1px solid #4CAF50;
     border-radius: 5px;
     text-align: center;
-    background-color: #111;
+    background-color: #212321;
 }
 
 .column:hover {
@@ -138,18 +138,22 @@ section {
 
 /* Footer */
 footer {
-    background-color: #333;
+    background-color: #212521;
     color: #eee;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
-    border-top: 3px solid #4CAF50;
+    border-top: 1px solid #4CAF50;
 }
 
 /* Links */
 a {
     color: #4CAF50;
     text-decoration: none;
+}
+
+a h1 {
+    color: #000;
 }
 
 a:hover {
