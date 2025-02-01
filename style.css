@@ -44,7 +44,7 @@ body {
 
 /* Header */
 header {
-    background-color: #212321;
+    background-color: #252925;
     color: #eee;
     padding: 1rem;
     text-align: center;
@@ -80,7 +80,7 @@ section {
 }
 
 .music, .visuals, .contact {
-    background-color: #212321;
+    background-color: #252925;
     margin-top: 1rem;
     border-top: 1px solid #4CAF50;
     border-bottom: 1px solid #4CAF50;
@@ -128,7 +128,7 @@ section {
     border: 1px solid #4CAF50;
     border-radius: 5px;
     text-align: center;
-    background-color: #212321;
+    background-color: #252925;
 }
 
 .column:hover {
@@ -138,7 +138,7 @@ section {
 
 /* Footer */
 footer {
-    background-color: #212521;
+    background-color: #252925;
     color: #eee;
     text-align: center;
     padding: 1rem;
