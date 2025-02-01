@@ -195,6 +195,74 @@ a:hover {
     width:auto;
 }
 
+input, textarea, select {
+    font-family: inherit;
+    font-size: 16px;
+}
+
+::selection {
+    background: #4CAF50; 
+    color: white;
+}
+::-moz-selection {
+    background: #4CAF50; 
+    color: white;
+}
+
+input[type="email"] {
+    margin-top: 5px;
+    width: 250px;
+    padding: 1px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+    background-color: #777;
+}
+
+input[type="number"] {
+    margin-top: 5px;
+    width: 100px;
+    padding: 1px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    outline: none;
+    background-color: #777;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus {
+    border: 1px solid #4CAF50;
+    background-color: #fff;
+}
+
+input[type="submit"] {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: #000;
+    padding: 1px;
+    padding-inline: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+    border:1px solid #000;
+}
+
+input[type="submit"]:hover {
+    background-color: #4CAF50;
+    color: #000;
+}
+
+.paypal-button {
+    margin-top: 5px;
+    text-align:center;
+    border: 1px solid #000;
+    border-radius:0px;
+    padding-inline: 5px !important;
+    font-weight:bold;
+    background-color:#4CAF50;
+    color:#000000;
+    cursor:pointer;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
