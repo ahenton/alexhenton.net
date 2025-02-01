@@ -83,6 +83,7 @@ section {
 
 .art-gallery {
     margin-top: 15px;
+    margin-bottom: 15px;
     display: inline-flex;
     align-items: center;
     justify-content: center;
