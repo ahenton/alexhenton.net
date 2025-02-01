@@ -82,18 +82,20 @@ section {
 }
 
 .art-gallery {
-    display: flex;
+    margin-top: 15px;
+    display: inline-flex;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    max-width: 90%;
 }
   
 .art-image {
-    width: 200px; /* Adjust to your preference */
-    height: auto;
-    border: 1px solid #4CAF50;
+    max-width: 300px;
+    object-fit: scale-down;
     border-radius: 5px;
-    filter:blur(5px);
+    border: 1px solid #4CAF50;
 }
   
 .art-image:hover {
