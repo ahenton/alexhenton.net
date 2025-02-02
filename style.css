@@ -176,19 +176,12 @@ a {
     text-decoration: none;
 }
 
-a h1 {
-    color: #000;
-}
-
 a:hover {
     color: #000000;
 }
 
-.texturedcardstock {
-    color: #fff;
-}
-.texturedcardstock:hover {
-    color: #fff;
+a .art-image-full {
+    cursor: default;
 }
 
 input, textarea, select {
