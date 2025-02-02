@@ -51,6 +51,21 @@ header {
     border-bottom: 1px solid #4CAF50;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link.left {
+    text-align: left;
+}
+.nav-link.right {
+    text-align: right;
+}
+.nav-link.center {
+    text-align: center !important;
+}
+
 .nav-links {
     list-style: none;
     display: flex;
