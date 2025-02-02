@@ -52,6 +52,7 @@ header {
 }
 
 .nav-container {
+    list-style: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,7 +64,12 @@ header {
     text-align: right;
 }
 .nav-link.center {
-    text-align: center !important;
+    text-align: center;
+}
+.invisible-link {
+    color: #222;
+    text-decoration: none;
+    pointer: none;
 }
 
 .nav-links {
