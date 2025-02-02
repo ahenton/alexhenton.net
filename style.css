@@ -162,37 +162,11 @@ a:hover {
     color: #000000;
 }
 
-.hover-text:hover {
-    container-name: "manhattan, kansas";
+.texturedcardstock {
+    color: #fff;
 }
-
-.text-container {
-    position: relative;
-    width: auto;
-}
-
-.text1 {
-    display: inline;
-    opacity: 1;
-    width:auto;
-}
-
-.text2 {
-    display: none;
-    opacity: 0;
-    width: 0%;
-}
-
-.text-container:hover .text1 {
-    display: none;
-    opacity: 0;
-    width: 0%;
-}
-
-.text-container:hover .text2 {
-    display:inline;
-    opacity: 1;
-    width:auto;
+.texturedcardstock:hover {
+    color: #fff;
 }
 
 input, textarea, select {
