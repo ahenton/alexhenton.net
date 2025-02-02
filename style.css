@@ -70,7 +70,9 @@ header {
     color: #222;
     text-decoration: none;
 }
-
+.invisible-link:hover {
+    color: #222;
+}
 .nav-links {
     list-style: none;
     display: flex;
