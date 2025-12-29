@@ -123,11 +123,17 @@ section {
     max-width: 90%;
 }
   
-.image {
+.art-image {
     max-width: 300px;
     object-fit: scale-down;
     border-radius: 5px;
     border: 1px solid #4CAF50;
+}
+
+.profile-image {
+    max-width: 100px;
+    object-fit: scale-down;
+    border-radius: 0px;
 }
   
 .art-image:hover {
