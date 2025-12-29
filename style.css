@@ -131,9 +131,10 @@ section {
 }
 
 .profile-image {
-    max-width: 100px;
+    max-width: 50px;
     object-fit: scale-down;
-    border-radius: 0px;
+    border-radius: 50px;
+    border: 0px solid #4CAF50;
 }
   
 .art-image:hover {
